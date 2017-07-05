@@ -1,0 +1,24 @@
+<header class="head pos-relative">
+	<div class="back pos-absolute">
+		<i class="iconfont icon-arrowleft f4" ui-sref="backindex"></i>
+	</div>
+	<div class="head_search">
+		<i class="iconfont icon-sousuo f22"></i>
+		<input type="text"  placeholder="搜索" ng-model="msg" />
+	</div>
+	<div class="more pos-absolute">
+		<span ng-click="search(msg)">搜索</span>
+	</div>
+</header>
+
+<div class="like_list">
+	<span ui-sref="search.dan" ui-sref-active="active">单品</span>
+	<span ui-sref="search.da" ui-sref-active="active">搭配</span>
+	<span ui-sref="search.wen" ui-sref-active="active">文章</span>
+	<span ui-sref="search.pin" ui-sref-active="active">品牌/用户</span>
+	
+</div>
+<section class="like">
+	
+	<ui-view></ui-view>
+</section>

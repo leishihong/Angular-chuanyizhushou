@@ -1,0 +1,281 @@
+body {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  display: -webkit-flex;
+  flex-direction: column;
+  font-size: 16px;
+  background: #f5f5f5;
+  overflow: hidden; }
+
+div[ui-view] {
+  display: -webkit-flex;
+  flex-direction: column;
+  flex: 1; }
+
+.swiper-pagination span {
+  background: #79627f; }
+
+.active {
+  border-bottom: 2px solid #d075ea;
+  color: #d075ea; }
+
+.bgColor {
+  color: #d075ea; }
+
+.head {
+  height: 0.42rem;
+  line-height: 0.4rem;
+  background: #ffffff;
+  border-bottom: 2px solid #dbdbdb; }
+  .head .back {
+    left: 0.1rem;
+    top: 0; }
+    .head .back i {
+      font-size: 0.16rem; }
+    .head .back span {
+      font-size: 0.14rem; }
+  .head .more {
+    right: 0.1rem;
+    top: 0; }
+    .head .more i {
+      font-size: 0.16rem; }
+  .head h3 {
+    text-align: center;
+    color: #000;
+    font-size: 0.16rem; }
+  .head p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto; }
+    .head p span {
+      display: inline-block;
+      text-align: center;
+      width: 50px;
+      color: #000;
+      font-size: 0.16rem; }
+
+.head p span.active {
+  border-bottom: 2px solid #d075ea;
+  color: #d075ea; }
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  height: auto; }
+  .content .banner {
+    border-top: 1px solid #e9e6e1;
+    border-bottom: 1px solid #e9e6e1; }
+  .content .banner ul li {
+    height: auto; }
+    .content .banner ul li img {
+      width: 100%;
+      height: 100%; }
+  .content .list {
+    background: #ffffff;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-bottom: 15px; }
+    .content .list a {
+      flex: 1; }
+      .content .list a dl {
+        padding-top: 0.18rem;
+        padding-bottom: 0.18rem; }
+        .content .list a dl dt {
+          width: 25%;
+          height: 0.3rem;
+          margin: auto; }
+          .content .list a dl dt img {
+            width: 100%;
+            height: 100%; }
+        .content .list a dl dd {
+          text-align: center;
+          padding-top: 0.1rem;
+          font-size: 12px; }
+  .content .liu {
+    margin-top: 15px;
+    background: #fff; }
+    .content .liu h3 {
+      line-height: 0.4rem;
+      text-align: center;
+      font-size: 16px; }
+    .content .liu .qing {
+      display: -webkit-flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%; }
+      .content .liu .qing dl {
+        width: 33%;
+        flex: 1;
+        padding-bottom: 0.18rem;
+        padding-left: 0.12rem;
+        padding-right: 0.12rem;
+        box-sizing: border-box; }
+        .content .liu .qing dl dt {
+          width: 0.82rem;
+          height: 0.82rem;
+          margin: auto; }
+          .content .liu .qing dl dt img {
+            width: 100%;
+            height: 100%; }
+        .content .liu .qing dl dd {
+          font-size: 12px;
+          padding-top: 0.12rem;
+          text-align: center;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+  .content .shi {
+    margin-top: 15px;
+    background: #fff; }
+    .content .shi h3 {
+      line-height: 0.4rem;
+      text-align: center;
+      font-size: 16px; }
+  .content #pin_wrapper {
+    width: 100%;
+    overflow: auto;
+    background: #fff; }
+  .content .pin {
+    padding-left: 0.12rem;
+    padding-right: 0.12rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 200px; }
+    .content .pin dl {
+      flex: 1; }
+      .content .pin dl dt img {
+        width: 100%;
+        height: 100%; }
+      .content .pin dl dd {
+        width: 100%;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-right: 0.05rem; }
+        .content .pin dl dd p {
+          font-size: 0.12rem;
+          color: #333;
+          width: 100%; }
+        .content .pin dl dd p:nth-child(2) {
+          color: #999999;
+          font-size: 0.1rem;
+          padding-top: 0.05rem; }
+          .content .pin dl dd p:nth-child(2) span {
+            margin-right: 10px; }
+  .content .you {
+    margin-top: 15px;
+    background: #fff;
+    padding-left: 0.12rem;
+    padding-right: 0.12rem; }
+    .content .you h3 {
+      line-height: 0.4rem;
+      text-align: center;
+      font-size: 16px; }
+    .content .you .zhu {
+      display: -webkit-flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center; }
+      .content .you .zhu .datas {
+        width: 49%;
+        padding-bottom: 0.2rem; }
+        .content .you .zhu .datas .ban {
+          position: relative; }
+          .content .you .zhu .datas .ban img {
+            width: 100%;
+            height: 100%; }
+          .content .you .zhu .datas .ban .add {
+            position: absolute;
+            width: 0.6rem;
+            height: 0.25rem;
+            line-height: 0.25rem;
+            background: rgba(0, 0, 0, 0.5);
+            bottom: 0.12rem;
+            right: 0;
+            color: #acacad;
+            border-radius: 20px 0 0 20px;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: space-around; }
+            .content .you .zhu .datas .ban .add i {
+              font-size: 14px; }
+      .content .you .zhu dl {
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: space-between; }
+        .content .you .zhu dl dt {
+          padding-top: 0.1rem;
+          width: 0.25rem;
+          height: 0.25rem; }
+          .content .you .zhu dl dt img {
+            width: 100%;
+            height: 100%; }
+        .content .you .zhu dl dd {
+          flex: 1;
+          padding-left: 0.1rem;
+          margin-top: 0.08rem;
+          font-size: 0.1rem;
+          color: #777; }
+      .content .you .zhu p {
+        font-size: 0.1rem;
+        color: #999999;
+        padding-top: 0.1rem; }
+
+.foot {
+  height: 0.44rem;
+  border-top: 1px solid #eeeeee;
+  display: -webkit-flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .foot a {
+    flex: 1; }
+    .foot a dl {
+      text-align: center; }
+      .foot a dl dt {
+        padding-top: 0.01rem; }
+        .foot a dl dt i {
+          font-size: 20px; }
+      .foot a dl dd {
+        font-size: 0.14rem; }
+    .foot a:hover {
+      color: #79627f; }
+
+.fen_dialog {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 2; }
+  .fen_dialog .fen_mark {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    height: 1.2rem;
+    text-align: center; }
+    .fen_dialog .fen_mark span {
+      display: inline-block;
+      text-align: center;
+      font-size: 16px;
+      padding-top: 0.12rem; }
+    .fen_dialog .fen_mark ul {
+      display: -webkit-flex;
+      justify-content: space-around;
+      padding-top: 0.16rem; }
+      .fen_dialog .fen_mark ul li {
+        width: 30%;
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        border: 1px solid #ccc; }
+        .fen_dialog .fen_mark ul li i {
+          font-size: 30px;
+          color: #5ad64d; }
+
+/*# sourceMappingURL=demo.css.map */

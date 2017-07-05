@@ -1,0 +1,40 @@
+.qing {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff; }
+  .qing .qing_page {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    width: auto;
+    height: auto; }
+    .qing .qing_page img {
+      width: 100%;
+      height: 100%; }
+  .qing .qing_list {
+    height: 0.5rem;
+    margin-top: 0.16rem;
+    display: -webkit-flex;
+    justify-content: space-around; }
+    .qing .qing_list dl {
+      flex: 1;
+      text-align: center; }
+      .qing .qing_list dl dt {
+        width: 0.28rem;
+        height: 0.28rem;
+        margin: auto; }
+        .qing .qing_list dl dt i {
+          font-size: 20px; }
+      .qing .qing_list dl dd {
+        font-size: 0.14rem;
+        color: #333;
+        text-align: center; }
+    .qing .qing_list p {
+      flex: 1;
+      background: #7566d8;
+      color: #fff;
+      width: 1.2rem;
+      height: 0.5rem;
+      line-height: 0.5rem;
+      text-align: center; }
+
+/*# sourceMappingURL=qing.css.map */

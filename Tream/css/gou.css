@@ -1,0 +1,211 @@
+.gou_head {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  background: #fff;
+  box-shadow: 1px 2px 2px #999; }
+  .gou_head .gou_search {
+    width: 85%;
+    margin-left: 0.12rem;
+    margin-top: 0.08rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    background: #f5f5f5;
+    display: -webkit-flex;
+    border-radius: 20px; }
+    .gou_head .gou_search i {
+      padding-left: 0.1rem; }
+    .gou_head .gou_search input {
+      flex: 1;
+      background: #f5f5f5;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-radius: 20px; }
+  .gou_head .more {
+    position: absolute;
+    right: 0.1rem;
+    top: 0; }
+
+.gou_content {
+  flex: 1;
+  overflow-y: auto; }
+  .gou_content .gou_te {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem;
+    display: -webkit-flex; }
+    .gou_content .gou_te .te img {
+      width: 100%;
+      height: 100%; }
+    .gou_content .gou_te .left {
+      margin-right: 0.1rem;
+      position: relative; }
+      .gou_content .gou_te .left p {
+        position: absolute;
+        bottom: 0.2rem;
+        left: 25%; }
+        .gou_content .gou_te .left p span {
+          display: inline-block;
+          width: 20px;
+          heoght: 20px;
+          background: #000;
+          color: #fff;
+          font-size: 0.12rem;
+          text-align: center; }
+    .gou_content .gou_te .right .gou_jin {
+      margin-bottom: 0.2rem; }
+  .gou_content .gou_list {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem;
+    display: -webkit-flex;
+    justify-content: space-between; }
+    .gou_content .gou_list dl dt img {
+      width: 100%;
+      height: 100%; }
+    .gou_content .gou_list dl dd {
+      text-align: center;
+      padding-top: 0.05rem;
+      font-size: 0.14rem; }
+    .gou_content .gou_list dl:nth-child(2) {
+      margin-left: 15px;
+      margin-right: 15px; }
+  .gou_content .gou_dang {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem; }
+    .gou_content .gou_dang h3 {
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 16px;
+      color: #333; }
+    .gou_content .gou_dang .gou_qing {
+      display: -webkit-flex;
+      justify-content: space-between;
+      align-items: center; }
+      .gou_content .gou_dang .gou_qing dl {
+        padding-top: 0.12rem; }
+        .gou_content .gou_dang .gou_qing dl dt img {
+          width: 100%;
+          height: 100%; }
+        .gou_content .gou_dang .gou_qing dl dd {
+          text-align: center;
+          padding-top: 0.12rem;
+          color: #333;
+          font-size: 0.14rem; }
+      .gou_content .gou_dang .gou_qing dl:nth-child(2) {
+        margin-left: 15px;
+        margin-right: 15px; }
+      .gou_content .gou_dang .gou_qing dl:nth-child(3) {
+        margin-right: 15px; }
+  .gou_content .gou_fen {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem; }
+    .gou_content .gou_fen h3 {
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 16px;
+      color: #333; }
+    .gou_content .gou_fen ul {
+      width: 100%;
+      display: -webkit-flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-top: 0.12rem; }
+      .gou_content .gou_fen ul li {
+        width: 49.9%;
+        padding-bottom: 0.12rem; }
+        .gou_content .gou_fen ul li img {
+          width: 100%;
+          height: 100%; }
+  .gou_content .gou_hao {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem; }
+    .gou_content .gou_hao h3 {
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 16px;
+      color: #333; }
+    .gou_content .gou_hao .gou_datas {
+      width: 100%;
+      overflow: scroll;
+      margin-top: 10px; }
+      .gou_content .gou_hao .gou_datas ul {
+        display: -webkit-flex;
+        width: 900px; }
+        .gou_content .gou_hao .gou_datas ul li {
+          position: relative;
+          margin-right: 0.12rem;
+          width: 450px;
+          height: 150px; }
+          .gou_content .gou_hao .gou_datas ul li img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px; }
+          .gou_content .gou_hao .gou_datas ul li p {
+            position: absolute;
+            bottom: 15px;
+            left: 10px;
+            line-height: 25px;
+            color: #fff;
+            font-size: 0.12rem;
+            width: 80px;
+            height: 25px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            text-align: center; }
+  .gou_content .gou_tiao {
+    margin-top: 15px;
+    background: #fff;
+    padding: 0.12rem; }
+    .gou_content .gou_tiao h3 {
+      text-align: center;
+      line-height: 0.3rem;
+      font-size: 16px;
+      color: #333; }
+    .gou_content .gou_tiao .gou_xiang {
+      margin-top: 10px; }
+      .gou_content .gou_tiao .gou_xiang .gou_banner {
+        position: relative; }
+        .gou_content .gou_tiao .gou_xiang .gou_banner img {
+          width: 100%;
+          height: 100%; }
+        .gou_content .gou_tiao .gou_xiang .gou_banner h4 {
+          position: absolute;
+          top: 40%;
+          left: 18%;
+          font-size: 0.15rem;
+          color: #fff;
+          font-weight: bold; }
+        .gou_content .gou_tiao .gou_xiang .gou_banner p {
+          position: absolute;
+          top: 55%;
+          left: 30%;
+          width: 140px;
+          height: 30px;
+          line-height: 30px;
+          border-radius: 20px;
+          background: rgba(0, 0, 0, 0.5);
+          font-size: 0.14rem;
+          text-align: center;
+          color: #fff; }
+          .gou_content .gou_tiao .gou_xiang .gou_banner p i {
+            font-size: 18px;
+            margin-left: 0.05rem; }
+      .gou_content .gou_tiao .gou_xiang .gou_info {
+        height: 0.45rem;
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center; }
+        .gou_content .gou_tiao .gou_xiang .gou_info h3 {
+          color: #333;
+          font-size: 0.14rem;
+          font-weight: bold; }
+        .gou_content .gou_tiao .gou_xiang .gou_info p {
+          color: #999;
+          font-size: 0.12rem; }
+          .gou_content .gou_tiao .gou_xiang .gou_info p span {
+            margin-right: 0.05rem; }
+
+/*# sourceMappingURL=gou.css.map */

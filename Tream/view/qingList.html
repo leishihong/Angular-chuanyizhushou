@@ -1,0 +1,74 @@
+<header class="head pos-relative">
+	<div class="back pos-absolute">
+		<i class="iconfont icon-arrowleft f4" ui-sref="dialog"></i>
+	</div>
+	<h3>流行元素 | {{els}}</h3>
+	<div class="more pos-absolute">
+		<i class="iconfont icon-fenxiang2 f22 pr10" ng-click="fenxiang()"></i>
+		<i class="iconfont icon-gouwuche f22"></i>
+	</div>
+</header>
+
+<section class="qing_list">
+	<div class="swiper-container qing_list">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"  >
+				<div class="qing_datas">
+					<dl ng-repeat="i in datas">
+						<dt>
+							<img src="{{i.src}}" alt="" />
+						</dt>
+						<dd>
+							<p><span>{{i.price}}</span><span><i class="iconfont icon-like f22"></i>{{i.sum}}</span></p>
+						</dd>
+					</dl>
+				</div>
+				<div class="guan">
+					<h3>关键词：</h3>
+					<p><span>平底鞋</span></p>
+				</div>
+				<div class="qing_love">
+					<dl>
+						<dt>
+							<i class="iconfont icon-like f22"></i>
+						</dt>
+						<dd><span>喜欢</span><span>100</span></dd>
+					</dl>
+				</div>
+				<div class="qing_fen">
+					<h3><span></span><b>分享给好友</b><span></span></h3>
+					<div class="qing_lei">
+						<dl>
+							<dt>
+								<i class="iconfont icon-weixin f22"></i>
+							</dt>
+							<dd>微信</dd>
+						</dl>
+						<dl>
+							<dt>
+								<i class="iconfont icon-circular-QQ f22"></i>
+							</dt>
+							<dd>微信</dd>
+						</dl>
+						<dl>
+							<dt>
+								<i class="iconfont icon-circular-Weibo f22"></i>
+							</dt>
+							<dd>微信</dd>
+						</dl>
+						<dl>
+							<dt>
+								<i class="iconfont icon-weixin2 f22"></i>
+							</dt>
+							<dd>微信</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="hua">
+					<span>向左滑动查看下一个主题</span><i class="iconfont icon-youjiantou f22"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</section>

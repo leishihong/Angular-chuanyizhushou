@@ -1,0 +1,115 @@
+<header class="head pos-relative">
+	<div class="back pos-absolute">
+		<i class="iconfont icon-arrowleft f4" ui-sref="backindex"></i>
+	</div>
+	<p><span>{{today}}</span><span>{{citys}}</span><i class="iconfont icon-arrowdown f22" ui-sref="city"></i></p>
+	
+</header>
+<section class="chuan">
+	<div class="swiper-container qi">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            	<div class="chuan_datas">
+					<div class="chuan_banner">
+						<img src="./images/img/chaun_03.png"/>
+					</div>
+					<div class="chuan_list">
+						<dl>
+							<dt>
+								<i class="iconfont icon-liangdu f22"></i>
+							</dt>
+							<dd>7/22C较舒适</dd>
+						</dl>
+						<dl ng-click="fenxiang()">
+							<dt>
+								<i class="iconfont icon-fenxiang f22"></i>
+							</dt>
+							<dd>分享</dd>
+						</dl>
+						<dl ui-sref="qing">
+							<dt>
+								<i class="iconfont icon-bianji  f22"></i>
+							</dt>
+							<dd>详情</dd>
+						</dl>
+						<dl ng-click="changeBg()">
+							<dt>
+								<i class="iconfont icon-like f22" style="color: {{div1Bg}}"></i>
+							</dt>
+							<dd>喜欢</dd>
+						</dl>
+						<dl ui-sref="zai">
+							<dt>
+								<i class="iconfont icon-dingdan  f22"></i>
+							</dt>
+							<dd>再推荐</dd>
+						</dl>
+					</div>
+				</div>
+            </div>
+            <div class="swiper-slide">
+            	<div class="chuan_datas">
+					<div class="chuan_banner">
+						<img src="./images/img/chaun_03.png"/>
+					</div>
+					<div class="chuan_list">
+						<dl>
+							<dt>
+								<i class="iconfont icon-liangdu f22"></i>
+							</dt>
+							<dd>7/22C较舒适</dd>
+						</dl>
+						<dl ng-click="fenxiang()">
+							<dt>
+								<i class="iconfont icon-fenxiang f22"></i>
+							</dt>
+							<dd>分享</dd>
+						</dl>
+						<dl ui-sref="qing">
+							<dt>
+								<i class="iconfont icon-bianji  f22" ></i>
+							</dt>
+							<dd>详情</dd>
+						</dl>
+						<dl ng-click="changeBg()"  >
+							<dt>
+								<i class="iconfont icon-like f22" style="color: {{div1Bg}}"></i>
+							</dt>
+							<dd>喜欢</dd>
+						</dl>
+						<dl ui-sref="zai">
+							<dt>
+								<i class="iconfont icon-dingdan  f22"></i>
+							</dt>
+							<dd>再推荐</dd>
+						</dl>
+					</div>
+				</div>
+            </div>
+            <div class="swiper-slide">
+            	<div class="chuan_datas">
+					<div class="chuan_banner">
+						<img src="./images/img/chuna_03.png"/>
+						<p>点击进入》</p>
+					</div>
+				</div>
+            </div>
+            
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination click"></div>
+    </div>
+	<div class="fen_dialog" ng-show="isShow" ng-click="markhidden()">
+		<div class="fen_mark">
+			<span>分享到</span>
+			<ul>
+				<li><i class="iconfont icon-weixin f22"></i></li>
+				<li><i class="iconfont icon-weixin1 f22"></i></li>
+				<li><i class="iconfont icon-circular-QQ f22"></i></li>
+				<li><i class="iconfont icon-circular-Weibo f22"></i></li>
+			</ul>
+		</div>
+	</div>
+	
+</section>
+

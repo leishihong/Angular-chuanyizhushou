@@ -1,0 +1,19 @@
+.city_list {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff; }
+  .city_list .city_lis li {
+    height: 0.42rem;
+    line-height: 0.42rem;
+    border-bottom: 1px solid #eee;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; }
+    .city_list .city_lis li a {
+      font-size: 0.14rem;
+      color: #666; }
+    .city_list .city_lis li i {
+      font-size: 0.12rem; }
+
+/*# sourceMappingURL=city.css.map */

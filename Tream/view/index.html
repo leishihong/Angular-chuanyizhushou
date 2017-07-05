@@ -1,0 +1,238 @@
+<!--头部-->
+    <header class="head pos-relative">
+    	<div class="back pos-absolute">
+    		<i class="iconfont icon-sousuo f4" ui-sref="search"></i>
+    	</div>
+    	<p><span ui-sref="index" ui-sref-active="active">热门</span><span ui-sref="add" ui-sref-active="active">关注</span></p>
+    	<div class="more pos-absolute">
+    		<i class="iconfont icon-gouwuche f22"></i>
+    	</div>
+    </header>
+    <!--主体信息-->
+    <section class="content">
+    	
+    	<!--banner图-->
+    	<div class="banner swiper-container">
+    		<ul class="swiper-wrapper">
+    			<li class="swiper-slide"><img src="./images/photo/banner1.jpg" alt="" /></li>
+    			<li class="swiper-slide"><img src="./images/photo/banner2.jpg" alt="" /></li>
+    			<li class="swiper-slide"><img src="./images/photo/banner3.jpg" alt="" /></li>
+    		</ul>
+    		<div class="swiper-pagination"></div>
+    	</div>
+    	
+    	<!--列表-->
+    	<div class="list">
+    		<a ui-sref="chuan">
+    			<dl>
+    				<dt>
+    					<img src="./images/icon/list_05.png" alt="" />
+    				</dt>
+    				<dd>明天穿什么</dd>
+    			</dl>
+    		</a>
+    		<a ui-sref="ceshi">
+    			<dl>
+    				<dt>
+    					<img src="./images/icon/list_07.png" alt="" />
+    				</dt>
+    				<dd>搭配测试</dd>
+    			</dl>
+    		</a>
+    		<a ui-sref="shouce">
+    			<dl>
+    				<dt>
+    					<img src="./images/icon/list_09.png" alt="" />
+    				</dt>
+    				<dd>穿搭手册</dd>
+    			</dl>
+    		</a>
+    		<a ui-sref="kefu">
+    			<dl>
+    				<dt>
+    					<img src="./images/icon/list_11.png" alt="" />
+    				</dt>
+    				<dd>问穿搭</dd>
+    			</dl>
+    		</a>
+    	</div>
+		<div id="pin_wrapper">
+	    		<div class="pin">
+	    			<dl>
+	    				<dt>
+	    					<img src="./images/img/shi_20.png" alt="" />
+	    				</dt>
+	    				<dd>
+	    					<p class="text-nobr">手残党易学画眉法，我决定洗掉我的韩式半永久！震惊！</p>
+	    					<p><span>美人新计</span><span>|</span><span>VOL.14</span></p>
+	    				</dd>
+	    			</dl>
+	    			<dl>
+	    				<dt>
+	    					<img src="./images/img/shi_20.png" alt="" />
+	    				</dt>
+	    				<dd>
+	    					<p class="text-nobr">手残党易学画眉法，我决定洗掉我的韩式半永久！震惊！</p>
+	    					<p><span>美人新计</span><span>|</span><span>VOL.14</span></p>
+	    				</dd>
+	    			</dl>
+	    		</div>
+    		</div>
+		<!--流行元素-->
+		<div class="liu">
+			<h3>流行元素</h3>
+			<div class="qing">
+				<dl ng-repeat="x in list" ng-click="qing_list(x,x.liu.tittle)" ui-sref="qing_list">
+					<dt>
+						<img src="{{x.liu.src}}"/>
+					</dt>
+					<dd>{{x.liu.tittle}}</dd>
+				</dl>
+				<!--<dl>
+					<dt>
+						<img src="./images/icon/liu_03.png" alt="" />
+					</dt>
+					<dd>春日必备太阳镜</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/icon/liu_05.png" alt="" />
+					</dt>
+					<dd>欧美风简约连衣裙</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/icon/liu_07.png" alt="" />
+					</dt>
+					<dd>个性slodan短袖T</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/icon/liu_14.png" alt="" />
+					</dt>
+					<dd>个性短袖T恤</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/icon/liu_16.png" alt="" />
+					</dt>
+					<dd>轻薄防嗮开衫</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/icon/liu_18.png" alt="" />
+					</dt>
+					<dd>不累人的猫跟鞋</dd>
+				</dl>-->
+			</div>
+		</div>
+    	<!--时尚频道-->
+    	<div class="shi">
+    		<h3>时尚频道</h3>
+    		<div id="pin_wrapper">
+	    		<div class="pin">
+	    			<dl>
+	    				<dt>
+	    					<img src="./images/img/shi_20.png" alt="" />
+	    				</dt>
+	    				<dd>
+	    					<p class="text-nobr">手残党易学画眉法，我决定洗掉我的韩式半永久！震惊！</p>
+	    					<p><span>美人新计</span><span>|</span><span>VOL.14</span></p>
+	    				</dd>
+	    			</dl>
+	    			<dl>
+	    				<dt>
+	    					<img src="./images/img/shi_20.png" alt="" />
+	    				</dt>
+	    				<dd>
+	    					<p class="text-nobr">手残党易学画眉法，我决定洗掉我的韩式半永久！震惊！</p>
+	    					<p><span>美人新计</span><span>|</span><span>VOL.14</span></p>
+	    				</dd>
+	    			</dl>
+	    		</div>
+    		</div>
+    	</div>
+   		<!--优选美搭-->
+   		<div class="you">
+   			<h3>优选美搭</h3>
+   			<div class="zhu">
+   				<div class="datas">
+   					<div class="ban">
+   						<img src="./images/img/ben4.jpg" alt="" />
+   						<div class="add">
+   							<i class="iconfont icon-like f22"></i><span>5</span>
+   						</div>
+   					</div>
+   					<dl>
+   						<dt>
+   							<img src="./images/icon/tou_15.png" alt="" />
+   						</dt>
+   						<dd>安妮陈</dd>
+   					</dl>
+   					<p>
+   						<span>职场</span>
+	   					<span>|</span>
+	   					<span>遮阳腿</span>
+   					</p>
+   				</div>
+   				<div class="datas">
+   					<div class="ban">
+   						<img src="./images/img/ben3.jpg" alt="" />
+   						<div class="add">
+   							<i class="iconfont icon-like f22"></i><span>5</span>
+   						</div>
+   					</div>
+   					<dl>
+   						<dt>
+   							<img src="./images/icon/tou_15.png" alt="" />
+   						</dt>
+   						<dd>安妮陈</dd>
+   					</dl>
+   					<p>
+   						<span>职场</span>
+	   					<span>|</span>
+	   					<span>遮阳腿</span>
+   					</p>
+   				</div>
+   				<div class="datas">
+   					<div class="ban">
+   						<img src="./images/img/ben3.jpg" alt="" />
+   						<div class="add">
+   							<i class="iconfont icon-like f22"></i><span>5</span>
+   						</div>
+   					</div>
+   					<dl>
+   						<dt>
+   							<img src="./images/icon/tou_15.png" alt="" />
+   						</dt>
+   						<dd>安妮陈</dd>
+   					</dl>
+   					<p>
+   						<span>职场</span>
+	   					<span>|</span>
+	   					<span>遮阳腿</span>
+   					</p>
+   				</div>
+   				<div class="datas">
+   					<div class="ban">
+   						<img src="./images/img/ben4.jpg" alt="" />
+   						<div class="add">
+   							<i class="iconfont icon-like f22"></i><span>5</span>
+   						</div>
+   					</div>
+   					<dl>
+   						<dt>
+   							<img src="./images/icon/tou_15.png" alt="" />
+   						</dt>
+   						<dd>安妮陈</dd>
+   					</dl>
+   					<p>
+   						<span>职场</span>
+	   					<span>|</span>
+	   					<span>遮阳腿</span>
+   					</p>
+   				</div>
+   			</div>
+   		</div>
+    </section>
+    <my-footer></my-footer>

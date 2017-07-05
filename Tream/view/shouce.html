@@ -1,0 +1,98 @@
+<header class="head pos-relative">
+	<div class="back pos-absolute">
+		<i class="iconfont icon-arrowleft f4" ui-sref="dialog"></i>
+	</div>
+	<h3>穿搭手册</h3>
+	<div class="more pos-absolute">
+		<i class="iconfont icon-fenxiang2 f22 pr10" ng-click="fenxiang()"></i>
+		<i class="iconfont icon-gouwuche f22"></i>
+	</div>
+</header>
+
+<section class="shou">
+	<div class="shou_cai">
+		<h3>猜你想看 <span></span></h3>
+		<div class="shou_datas" id="shou_wrapper">
+			<ul class="shou_list">
+				<li><img src="./images/img/cai_03.png" alt="" /></li>
+				<li><img src="./images/img/cai_05.png" alt="" /></li>
+				<li><img src="./images/img/cai_07.png" alt="" /></li>
+				<li><img src="./images/img/cai_03.png" alt="" /></li>
+				<li><img src="./images/img/cai_05.png" alt="" /></li>
+				<li><img src="./images/img/cai_07.png" alt="" /></li>
+			</ul>
+		</div>
+	</div>
+	<div class="shou_cai">
+		<h3>时尚频道 <span></span></h3>
+		<div class="shou_datas" id="shou_wrapper">
+			<ul class="shou_list shou_shi">
+				<li><img src="./images/img/shang_11.png" alt="" /><p><span>美人新计</span></p></li>
+				<li><img src="./images/img/shang_13.png" alt="" /><p><span>时尚&光影</span></p></li>
+				<li><img src="./images/img/shang_13.png" alt="" /><p><span>八卦夜时尚</span></p></li>
+				<li><img src="./images/img/shang_11.png" alt="" /><p><span>美人新计</span></p></li>
+				<li><img src="./images/img/shang_13.png" alt="" /><p><span>时尚&光影</span></p></li>
+				<li><img src="./images/img/shang_11.png" alt="" /><p><span>八卦夜时尚</span></p></li>
+			</ul>
+		</div>
+	</div>
+	<div class="shou_cai shou_shang">
+		<h3>潮流穿搭志 <span></span></h3>
+		
+			<div class="shou_lists">
+				<dl>
+					<dt>
+						<img src="./images/img/chao_17.png"/>
+					</dt>
+					<dd>
+						<h3 class="text-nobr">大饼穿搭札记</h3>
+						<p class="text-nobr">实用穿搭技巧</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/img/chao_19.png"/>
+					</dt>
+					<dd>
+						<h3 class="text-nobr">姨妈的鸭</h3>
+						<p class="text-nobr">只逼逼时尚写手</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/img/chao_17.png"/>
+					</dt>
+					<dd>
+						<h3 class="text-nobr">石楠的穿搭..</h3>
+						<p class="text-nobr">实用穿搭技巧</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="./images/img/chao_17.png"/>
+					</dt>
+					<dd>
+						<h3 class="text-nobr">苹芥小魔蝎</h3>
+						<p class="text-nobr">实用穿搭技巧</p>
+					</dd>
+				</dl>
+			</div>
+	
+	</div>
+	<div class="shou_more">
+		<span>查看更多</span><i class="iconfont icon-arrowright f22"></i>
+	</div>
+	
+	<div class="fen_dialog" ng-show="isShow" ng-click="markhidden()">
+		<div class="fen_mark">
+			<span>分享到</span>
+			<ul>
+				<li><i class="iconfont icon-weixin f22"></i></li>
+				<li><i class="iconfont icon-weixin1 f22"></i></li>
+				<li><i class="iconfont icon-circular-QQ f22"></i></li>
+				<li><i class="iconfont icon-circular-Weibo f22"></i></li>
+			</ul>
+		</div>
+	</div>
+	
+</section>

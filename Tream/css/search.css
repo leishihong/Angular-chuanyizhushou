@@ -1,0 +1,22 @@
+.head_search {
+  width: 70%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin: 5px auto;
+  border-radius: 20px;
+  background: #eee;
+  display: -webkit-flex; }
+  .head_search i {
+    padding-left: 0.1rem; }
+  .head_search input {
+    flex: 1;
+    border-radius: 20px;
+    background: #eee;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; }
+
+.more span {
+  font-size: 0.15rem;
+  color: #8c7aff; }
+
+/*# sourceMappingURL=search.css.map */

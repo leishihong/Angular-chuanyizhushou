@@ -1,0 +1,8 @@
+#过滤node_modules
+/react1/node_modules
+/reactbaiduTemplate/node_modules
+/react-quizzes/node_modules
+/react-demo/node_modules
+/reactDva/node_modules
+/reacts1/node_modules
+/reacts1/src/node_modules

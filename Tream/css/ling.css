@@ -1,0 +1,58 @@
+.ling {
+  flex: 1;
+  overflow-y: auto; }
+
+#link_wrapper {
+  width: 100%;
+  overflow: scroll; }
+
+.ling_datas {
+  width: 900px;
+  padding: 0.12rem;
+  display: -webkit-flex;
+  justify-content: space-between; }
+  .ling_datas dl {
+    padding: 0.14rem 0.12rem 0.14rem 0.12rem;
+    background: #fff;
+    margin-right: 0.12rem; }
+    .ling_datas dl dt {
+      width: 0.8rem;
+      height: 0.8rem; }
+      .ling_datas dl dt img {
+        width: 100%;
+        height: 100%; }
+    .ling_datas dl dd {
+      text-align: center;
+      padding-top: 0.12rem;
+      color: #666666;
+      font-size: 0.14rem;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+h3 {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: #333;
+  font-size: 16px; }
+
+.ling_banner {
+  padding: 0.12rem;
+  background: #fff;
+  margin-bottom: 13px; }
+  .ling_banner .link_info img {
+    width: 100%;
+    height: 100%; }
+  .ling_banner h2 {
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    color: #3c3c3c; }
+  .ling_banner p {
+    color: #999;
+    font-size: 0.12rem;
+    padding-bottom: 0.05rem; }
+
+/*# sourceMappingURL=ling.css.map */

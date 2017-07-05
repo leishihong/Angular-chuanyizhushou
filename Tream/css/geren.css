@@ -1,0 +1,51 @@
+.geren {
+  flex: 1;
+  overflow-y: auto; }
+  .geren .geren_tou {
+    height: auto;
+    background: #eee; }
+    .geren .geren_tou dl {
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem; }
+      .geren .geren_tou dl dt {
+        width: 0.6rem;
+        height: 0.6rem;
+        margin: auto; }
+        .geren .geren_tou dl dt img {
+          width: 100%;
+          height: 100%; }
+      .geren .geren_tou dl dd span {
+        display: block;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        margin: 15px auto;
+        background: #fff;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 0.14rem; }
+  .geren .gern_list {
+    margin-top: 15px;
+    background: #fff; }
+    .geren .gern_list ul li {
+      height: 0.42rem;
+      line-height: 0.42rem;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      display: -webkit-flex;
+      justify-content: space-between; }
+      .geren .gern_list ul li span {
+        font-size: 0.14rem; }
+      .geren .gern_list ul li span:nth-child(2) {
+        color: #999;
+        font-size: 0.12rem;
+        padding-right: 0.16rem; }
+      .geren .gern_list ul li i {
+        position: absolute;
+        right: 0.1rem;
+        top: 0;
+        font-size: 0.14rem; }
+
+/*# sourceMappingURL=geren.css.map */

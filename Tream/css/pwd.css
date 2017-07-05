@@ -1,0 +1,38 @@
+.pwd {
+  flex: 1;
+  overflow-y: auto;
+  background: #f5f5f5; }
+  .pwd .pwd_mima {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    margin-top: 15px; }
+    .pwd .pwd_mima .yonghu {
+      height: 0.35rem;
+      line-height: 0.4rem; }
+      .pwd .pwd_mima .yonghu span {
+        font-size: 0.16rem;
+        color: #666; }
+    .pwd .pwd_mima ul li {
+      height: 0.4rem;
+      padding-bottom: 30px; }
+      .pwd .pwd_mima ul li label {
+        width: 100%;
+        height: 0.2rem;
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px; }
+      .pwd .pwd_mima ul li input {
+        border: 1px solid #ccc;
+        width: 100%;
+        height: 100%; }
+    .pwd .pwd_mima p {
+      width: 80%;
+      height: 0.35rem;
+      line-height: 0.35rem;
+      text-align: center;
+      font-size: 0.14rem;
+      color: #fff;
+      background: #8a5899;
+      margin: 20px auto; }
+
+/*# sourceMappingURL=pwd.css.map */

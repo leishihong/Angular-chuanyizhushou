@@ -1,0 +1,91 @@
+.shou {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff; }
+  .shou .shou_cai {
+    padding-top: 0.24rem; }
+    .shou .shou_cai h3 {
+      font-size: 0.15rem;
+      color: #333;
+      font-weight: bold;
+      position: relative; }
+      .shou .shou_cai h3 span {
+        position: absolute;
+        width: 0.25rem;
+        height: 2px;
+        background: #8a5899;
+        top: 0.35rem;
+        left: 46%; }
+    .shou .shou_cai #shou_wrapper {
+      width: 100%;
+      overflow-x: auto; }
+    .shou .shou_cai .shou_datas {
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+      box-sizing: border-box; }
+      .shou .shou_cai .shou_datas .shou_list {
+        display: -webkit-flex;
+        justify-content: space-between;
+        overflow: hidden;
+        width: 700px;
+        padding-top: 0.1rem; }
+        .shou .shou_cai .shou_datas .shou_list li {
+          flex: 1;
+          margin-right: 0.12rem;
+          position: relative; }
+          .shou .shou_cai .shou_datas .shou_list li img {
+            width: 100%;
+            height: 100%; }
+          .shou .shou_cai .shou_datas .shou_list li p {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: center; }
+            .shou .shou_cai .shou_datas .shou_list li p span {
+              color: #fff;
+              font-size: 0.14rem;
+              line-height: 1.3rem; }
+  .shou .shou_shang {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem; }
+  .shou .shou_lists {
+    display: -webkit-flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0.1rem; }
+    .shou .shou_lists dl {
+      width: 24%;
+      padding: 0.05rem;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 6px; }
+      .shou .shou_lists dl dt {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin: auto;
+        box-sizing: border-box; }
+        .shou .shou_lists dl dt img {
+          width: 100%;
+          height: 100%; }
+      .shou .shou_lists dl dd {
+        width: 100%; }
+        .shou .shou_lists dl dd h3 {
+          font-size: 0.12rem; }
+        .shou .shou_lists dl dd p {
+          font-size: 0.12rem;
+          color: #999;
+          text-align: center; }
+  .shou .shou_more {
+    width: 0.82rem;
+    height: 0.25rem;
+    margin: 0.2rem auto;
+    border: 1px solid #000;
+    font-size: 0.12rem;
+    line-height: 0.25rem;
+    text-align: center; }
+    .shou .shou_more i {
+      font-size: 0.12rem; }
+
+/*# sourceMappingURL=shouce.css.map */

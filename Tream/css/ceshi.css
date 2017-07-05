@@ -1,0 +1,90 @@
+.ti {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff;
+  position: relative; }
+  .ti .ti_logo {
+    width: 0.6rem;
+    max-weight: 6rem;
+    height: 0.45rem;
+    margin: 0.16rem auto; }
+    .ti .ti_logo img {
+      width: 100%;
+      height: 100%; }
+  .ti .ti_banner {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding-top: 0.14rem;
+    height: 4rem;
+    padding-bottom: 0.14rem; }
+    .ti .ti_banner img {
+      width: 100%;
+      height: 100%; }
+  .ti .ti_datas {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 0.12rem;
+    height: 4rem; }
+    .ti .ti_datas dl {
+      width: 48%;
+      padding-top: 0.18rem; }
+      .ti .ti_datas dl dt {
+        width: 0.5rem;
+        height: 0.6rem;
+        margin: auto; }
+        .ti .ti_datas dl dt img {
+          width: 100%;
+          height: 100%; }
+      .ti .ti_datas dl dd {
+        padding-top: 0.1rem;
+        text-align: center; }
+        .ti .ti_datas dl dd h4 {
+          font-size: 0.12rem;
+          color: #333; }
+          .ti .ti_datas dl dd h4 i {
+            margin-left: 0.14rem; }
+        .ti .ti_datas dl dd p {
+          font-size: 0.1rem;
+          color: #666;
+          padding-top: 0.05rem;
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+  .ti .ti_cao {
+    height: 0.3rem;
+    line-height: 0.3rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center; }
+  .ti .ti_xia {
+    width: 0.92rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    margin: 0.15rem auto;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 0.14rem;
+    border-radius: 6px; }
+    .ti .ti_xia i {
+      font-size: 0.12rem;
+      padding-left: 0.12rem; }
+  .ti .ti_shang {
+    padding-left: 0.1rem;
+    font-size: 0.14rem; }
+    .ti .ti_shang i {
+      font-size: 0.12rem;
+      padding-right: 0.12rem; }
+  .ti .ti_xuan {
+    padding-right: 0.1rem;
+    font-size: 0.14rem; }
+    .ti .ti_xuan i {
+      padding-right: 0.05rem; }
+
+/*# sourceMappingURL=ceshi.css.map */

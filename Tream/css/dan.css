@@ -1,0 +1,73 @@
+.like_dan {
+  background: #fff;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  border-bottom: 1px solid #eee; }
+  .like_dan h3 {
+    text-align: left;
+    font-size: 0.16rem;
+    height: 0.35rem;
+    line-height: 0.35rem; }
+  .like_dan p {
+    height: 0.4rem;
+    line-height: 0.4rem; }
+    .like_dan p b {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      background: #000;
+      border-radius: 50%;
+      margin-right: 0.1rem;
+      margin-bottom: 0.03rem; }
+    .like_dan p span {
+      font-size: 0.15rem;
+      color: #666666;
+      font-weight: bold; }
+  .like_dan .like_list {
+    background: #fff;
+    height: auto;
+    padding-bottom: 5px; }
+    .like_dan .like_list ul {
+      display: -webkit-flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap; }
+      .like_dan .like_list ul li {
+        width: 31%;
+        height: 0.22rem;
+        line-height: 0.22rem;
+        border: 1px solid #d1d1d1;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 0.05rem;
+        margin-bottom: 0.05rem;
+        font-size: 0.14rem; }
+        .like_dan .like_list ul li a {
+          color: #727272; }
+  .like_dan .like_wen dl {
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding-bottom: 0.14rem;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-top: 0.12rem; }
+    .like_dan .like_wen dl dt {
+      width: 0.4rem;
+      height: 0.4rem; }
+      .like_dan .like_wen dl dt img {
+        width: 100%;
+        height: 100%; }
+    .like_dan .like_wen dl dd {
+      flex: 1;
+      padding-left: 0.12rem;
+      position: relative;
+      color: #666666; }
+      .like_dan .like_wen dl dd span {
+        font-size: 0.14rem; }
+      .like_dan .like_wen dl dd i {
+        position: absolute;
+        right: 0.1rem;
+        font-size: 0.12rem;
+        top: 0.05rem; }
+
+/*# sourceMappingURL=dan.css.map */

@@ -1,0 +1,12 @@
+<header class="head pos-relative">
+	<div class="back pos-absolute">
+		<i class="iconfont icon-arrowleft f4" ui-sref="backchuan1"></i>
+	</div>
+	<p>请选择你的城市</p>
+</header>
+<section class="city_list">
+	<ul class="city_lis" ng-repeat="x in olList">
+		<li ng-click="olis(x.tittle)"><a>{{x.tittle}}</a><i class="iconfont icon-arrowright f22"></i></li>
+		
+	</ul>
+</section>
